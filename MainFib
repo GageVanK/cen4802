@@ -1,12 +1,24 @@
 package cen4802FIB;
 
+/**
+* This class uses a Recursive Fibonacci Method to Calculate the 10th term in the sequence
+* @author Gage Van Kuilenburg
+*/
 public class MainFib {
 
+/**
+* Main Method used fibMethod to output the 10th term of the sequence
+* @param args
+*/
 public static void main(String[] args) {
 		int n = 10;
 		System.out.println("The " + n + "th term of the Fibonacci sequence is " + fibMethod(n));
 	}
-	
+
+/**
+* Recursive Fibonacci Method that takes in an Integer to calculate the nth term of the sequence
+* @param n 
+*/
 public static int fibMethod(int n) {
       if (n == 0)
           return 0;
